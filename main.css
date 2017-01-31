@@ -1,6 +1,25 @@
+/*body*/
+body {
+	font-family: sans-serif;
+}
+
 /*header*/
 
 /*nav*/
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+ul li {
+	display: inline-block;
+}
+ul li a {
+	text-decoration: none;
+}
+ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
 
 /*main*/
 
@@ -8,4 +27,5 @@
 footer {
 	background-color: #000;
 	color: #fff;
+	padding: 10px;
 }
